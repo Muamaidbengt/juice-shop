@@ -102,6 +102,7 @@
   "devDependencies": {
     "chai": "~4.1",
     "codeclimate-test-reporter": "~0.5",
+    "cross-env": "~5.2",
     "cross-spawn": "~6.0",
     "form-data": "~2.3",
     "frisby": "~2.0",
@@ -148,7 +149,7 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "npm --prefix ./app install ./app && grunt minify",
-    "start": "node app",
+    "start": "cross-env NODE_ENV=ctf node app",
     "test": "standard && karma start karma.conf.js && nyc --report-dir=./build/reports/coverage/server-tests mocha test/server",
     "frisby": "nyc --report-dir=./build/reports/coverage/api-tests jest --silent -i",
     "preupdate-webdriver": "npm install",
