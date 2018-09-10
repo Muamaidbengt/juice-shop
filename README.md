@@ -1,9 +1,6 @@
 This is a shortened version of the Juice Shop readme, for workshops etc.
 **For the original version of this readme, [go here](https://github.com/bkimminich/juice-shop)**
 
-A description of what's going on can be found here:
-[Setting up for a CTF-style workshop](SETUP.md)
-
 ![Juice Shop Logo](https://raw.githubusercontent.com/bkimminich/juice-shop/master/app/public/images/JuiceShop_Logo_100px.png)
 # OWASP Juice Shop
 
